@@ -34,7 +34,7 @@ public class MenuManager : MonoBehaviour
             return;
         }
         instance = this;
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
         LoadPlayer();
     }
     public void StartNew()
